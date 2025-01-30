@@ -1,0 +1,21 @@
+{
+  "name": "torrent-packet-sniffer",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^8.0.1",
+    "cap": "^0.2.1",
+    "chalk": "^5.4.1",
+    "os": "^0.1.2",
+    "torrent-packet-sniffer": "file:",
+    "yargs": "^17.7.2"
+  }
+}
