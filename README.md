@@ -18,7 +18,7 @@
 
 ### **1️⃣ Clone and Install Locally**
 ```sh
-git clone https://github.com/YOUR_GITHUB_USERNAME/torrent-packet-sniffer.git
+git clone https://github.com/JakeTurner616/torrent-packet-sniffer
 cd torrent-packet-sniffer
 npm install
 ```
@@ -93,7 +93,7 @@ torrent-packet-sniffer --interface eth0 --duration 60 --log sniff.log
 
 ### **1️⃣ Install as module**
 ```sh
-npm install https://github.com/YOUR_GITHUB_USERNAME/torrent-packet-sniffer.git
+npm install https://github.com/JakeTurner616/torrent-packet-sniffer
 ```
 
 ### **2️⃣ Import and Use**
@@ -150,8 +150,8 @@ const sniffer = new TorrentSniffer(null, null, true); // Silent mode enabled
 
 ---
 
-## ❌ Uninstallation
-To remove the CLI tool globally:
+## Uninstall
+To remove:
 ```sh
 npm uninstall -g torrent-packet-sniffer
 ```
